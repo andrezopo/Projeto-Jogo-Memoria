@@ -14,7 +14,6 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: red;
 }
 .topo-titulo{
     display: flex;
@@ -27,7 +26,6 @@ body{
 .conteudo{
     display: flex;
     width: 100%;
-    background-color: blue;
     align-items: center;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -60,5 +58,7 @@ body{
     opacity: 1;    
 }
 .virada{
+
     background-image: none;
+    
 }
