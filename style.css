@@ -46,7 +46,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: all 1s linear;
+    
 }
 .carta img{
     width: 100px;
@@ -55,10 +55,12 @@ body{
     opacity: 0;
 }
 .virada img{
-    opacity: 1;    
+    opacity: 1;
+    transition: all 1s linear;  
 }
 .virada{
-
+    transform: rotateY(180deg);
     background-image: none;
+    transition: all 1s linear;
     
 }
