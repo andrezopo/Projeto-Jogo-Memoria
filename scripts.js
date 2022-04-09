@@ -57,6 +57,7 @@ function virarCartas(elemento){
 
         elemento.classList.add("virada")
         contadorJogadas ++;
+
         if(document.querySelectorAll(".virada").length%2 !==0){
             nomeImagem = elemento.querySelector("img").src
             posicao = elemento.querySelector("img").classList.value
@@ -66,12 +67,12 @@ function virarCartas(elemento){
 
         }else{
             travarVirada = true;
-            setTimeout(desvirarCartas, 1000);
+            setTimeout(desvirarCartas, 1300);
             
         }
     
     }
-    setTimeout(verificarVitoria, 100)
+    setTimeout(verificarVitoria, 350)
     
        
 }

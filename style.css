@@ -56,11 +56,12 @@ body{
 }
 .virada img{
     opacity: 1;
-    transition: all 1s linear;  
+    transition: all 1ms ease-in;
+    transition-delay: 305ms;  
 }
 .virada{
     transform: rotateY(180deg);
     background-image: none;
-    transition: all 1s linear;
+    transition: all 300ms linear;
     
 }
