@@ -31,6 +31,16 @@ body{
     justify-content: space-evenly;
 
 }
+.timer{
+    display: flex;
+    font-size: 30px;
+    width: 100%;
+    justify-content: flex-end;
+    margin-right: 14px;
+    padding: 10px;
+    color:#ED68B6;
+    
+}
 .carta{
     background-image: url('Imagens/front.png');
     width: 118px;
