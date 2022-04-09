@@ -65,3 +65,18 @@ body{
     transition: all 300ms linear;
     
 }
+@media(max-width: 440px){
+    .body{
+        flex-direction: row;
+    }
+    .container{
+        width: 95%;
+    }
+    .conteudo{
+        flex-direction: column;
+    }
+    .topo-titulo{
+        width: 100%;
+        text-align: center;
+    }
+}
