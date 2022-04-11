@@ -8,6 +8,7 @@ body{
     flex-direction: column;
     align-items: center;
     font-family: 'Roboto', sans-serif;
+    background-color: #EDF6BF;
 }
 .container{
     width: 80%;
